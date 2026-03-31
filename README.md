@@ -11,7 +11,7 @@ ROS2 智能车项目，采用单仓库双目录结构：
 - `feature/rdk-x5`：RDK X5 开发分支
 - `feature/stm32`：STM32 开发分支
 
-## 建议目录结构
+## 目录结构
 
 ```text
 ROS2-smart-car/
