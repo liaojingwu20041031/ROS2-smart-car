@@ -1,0 +1,95 @@
+[0.003s] Invoking command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base': AMENT_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/ljw/ROS2-smart-car/rdk_x5_ros2/src/ylhb_base -DCMAKE_INSTALL_PREFIX=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base
+[0.228s] -- The C compiler identification is GNU 11.2.0
+[0.566s] -- The CXX compiler identification is GNU 11.2.0
+[0.602s] -- Detecting C compiler ABI info
+[0.982s] -- Detecting C compiler ABI info - done
+[1.057s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.058s] -- Detecting C compile features
+[1.061s] -- Detecting C compile features - done
+[1.078s] -- Detecting CXX compiler ABI info
+[1.511s] -- Detecting CXX compiler ABI info - done
+[1.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.577s] -- Detecting CXX compile features
+[1.579s] -- Detecting CXX compile features - done
+[1.591s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.143s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.733s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[5.937s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.965s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.008s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.415s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.429s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.846s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.978s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.209s] -- Looking for pthread.h
+[7.591s] -- Looking for pthread.h - found
+[7.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.007s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.013s] -- Found Threads: TRUE  
+[8.332s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.517s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.621s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[8.674s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.188s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.258s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.264s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.265s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.299s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.761s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.762s] -- Configured cppcheck include dirs: 
+[9.762s] -- Configured cppcheck exclude dirs and/or files: 
+[9.765s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.768s] -- Added test 'lint_cmake' to check CMake code style
+[9.771s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.778s] -- Added test 'uncrustify' to check C / C++ code style
+[9.779s] -- Configured uncrustify additional arguments: 
+[9.781s] -- Added test 'xmllint' to check XML markup files
+[9.787s] -- Configuring done
+[9.870s] -- Generating done
+[9.904s] -- Build files have been written to: /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base
+[9.973s] Invoked command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base' returned '0': AMENT_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/ljw/ROS2-smart-car/rdk_x5_ros2/src/ylhb_base -DCMAKE_INSTALL_PREFIX=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base
+[9.990s] Invoking command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base': AMENT_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base -- -j8 -l8
+[10.220s] [ 50%] [32mBuilding CXX object CMakeFiles/base_controller.dir/src/base_controller.cpp.o[0m
+[10.221s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_driver.dir/src/imu_driver.cpp.o[0m
+[36.532s] [ 75%] [32m[1mLinking CXX executable imu_driver[0m
+[38.045s] [ 75%] Built target imu_driver
+[66.502s] [100%] [32m[1mLinking CXX executable base_controller[0m
+[70.454s] [100%] Built target base_controller
+[70.503s] Invoked command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base' returned '0': AMENT_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base -- -j8 -l8
+[70.509s] Invoking command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base': AMENT_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base
+[70.544s] -- Install configuration: ""
+[70.545s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/base_controller
+[70.572s] -- Set runtime path of "/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/base_controller" to ""
+[70.572s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/imu_driver
+[70.579s] -- Set runtime path of "/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/imu_driver" to ""
+[70.580s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/vision_node.py
+[70.581s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/auto_align.py
+[70.581s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch
+[70.582s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch/mapping.launch.py
+[70.583s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch/navigation.launch.py
+[70.583s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch/bringup.launch.py
+[70.584s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config
+[70.584s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config/ekf.yaml
+[70.585s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config/slam_toolbox_params.yaml
+[70.585s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config/nav2_params.yaml
+[70.586s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/urdf
+[70.586s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/urdf/ylhb.urdf.xacro
+[70.587s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ament_index/resource_index/package_run_dependencies/ylhb_base
+[70.587s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ament_index/resource_index/parent_prefix_path/ylhb_base
+[70.588s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/ament_prefix_path.sh
+[70.588s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/ament_prefix_path.dsv
+[70.589s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/path.sh
+[70.589s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/path.dsv
+[70.590s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.bash
+[70.590s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.sh
+[70.591s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.zsh
+[70.591s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.dsv
+[70.592s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/package.dsv
+[70.593s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ament_index/resource_index/packages/ylhb_base
+[70.593s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/cmake/ylhb_baseConfig.cmake
+[70.594s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/cmake/ylhb_baseConfig-version.cmake
+[70.594s] -- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/package.xml
+[70.605s] Invoked command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base' returned '0': AMENT_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ROS2-smart-car/rdk_x5_ros2/install/rplidar_ros:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base

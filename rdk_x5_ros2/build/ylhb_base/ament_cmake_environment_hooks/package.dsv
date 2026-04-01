@@ -1,0 +1,4 @@
+source;share/ylhb_base/local_setup.bash
+source;share/ylhb_base/local_setup.dsv
+source;share/ylhb_base/local_setup.sh
+source;share/ylhb_base/local_setup.zsh

@@ -1,0 +1,32 @@
+[ 50%] Built target imu_driver
+[100%] Built target base_controller
+-- Install configuration: ""
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/base_controller
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/imu_driver
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/vision_node.py
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/lib/ylhb_base/auto_align.py
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch/mapping.launch.py
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch/navigation.launch.py
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/launch/bringup.launch.py
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config/ekf.yaml
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config/slam_toolbox_params.yaml
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/config/nav2_params.yaml
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/urdf
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/urdf/ylhb.urdf.xacro
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ament_index/resource_index/package_run_dependencies/ylhb_base
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ament_index/resource_index/parent_prefix_path/ylhb_base
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/path.sh
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/environment/path.dsv
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.bash
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.sh
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.zsh
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/local_setup.dsv
+-- Installing: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/package.dsv
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ament_index/resource_index/packages/ylhb_base
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/cmake/ylhb_baseConfig.cmake
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/cmake/ylhb_baseConfig-version.cmake
+-- Up-to-date: /home/ljw/ROS2-smart-car/rdk_x5_ros2/install/ylhb_base/share/ylhb_base/package.xml
