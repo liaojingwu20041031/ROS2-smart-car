@@ -92,12 +92,15 @@
 
 1. **基本一键启动** (使用默认的内部配置: 底盘 ttyS1，IMU ttyUSB0，雷达 ttyUSB1)
    ```bash
+   cd ~/ROS2-smart-car/rdk_x5_ros2
    source install/setup.bash
    ros2 launch ylhb_base bringup.launch.py
    ```
 
 2. **动态修改硬件串口端口启动** (如果您的设备挂载发生了串变)
    ```bash
+   cd ~/ROS2-smart-car/rdk_x5_ros2
+   source install/setup.bash
    ros2 launch ylhb_base bringup.launch.py base_port:=/dev/ttyS1 imu_port:=/dev/ttyUSB2 lidar_port:=/dev/ttyUSB0
    ```
 
@@ -109,6 +112,7 @@
 ### 1️⃣ 开始建图
 请先确保底层驱动（`bringup.launch.py`）正在后台运行，并且已连接激光雷达。随后打开一个新的终端执行：
 ```bash
+cd ~/ROS2-smart-car/rdk_x5_ros2
 source install/setup.bash
 ros2 launch ylhb_base mapping.launch.py
 ```
@@ -136,6 +140,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ### 3️⃣ 保存地图
 建立完整地图之后，你可以使用 `nav2_map_server` 中的 `map_saver_cli` 来保存生成的地图：
 ```bash
+cd ~/ROS2-smart-car/rdk_x5_ros2
 ros2 run nav2_map_server map_saver_cli -f my_map
 ```
 这将在当前目录下生成 `my_map.yaml` 和 `my_map.pgm`。
@@ -200,8 +205,9 @@ sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
 
 新开一个终端，执行：
 ```bash
+cd ~/ROS2-smart-car/rdk_x5_ros2
 source install/setup.bash
-# 默认会加载当前目录下的 my_map.yaml 文件作为已知地图
+# 默认会加载 ~/ROS2-smart-car/rdk_x5_ros2/my_map.yaml 文件作为已知地图
 ros2 launch ylhb_base navigation.launch.py
 ```
 *如果你有多个地图，或者想指定其他路径的地图文件，可通过此命令行参数进行覆盖：*
