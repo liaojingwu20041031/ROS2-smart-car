@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "=== Terminal 1: Run this to start the chassis ==="
 echo "sudo chmod 777 /dev/ttyS1"
-echo "cd ~/ROS2_ylhb"
+echo "cd ~/ROS2-smart-car/rdk_x5_ros2"
 echo "source /opt/ros/humble/setup.bash"
 echo "source install/setup.bash"
 echo "ros2 run ylhb_base base_controller"

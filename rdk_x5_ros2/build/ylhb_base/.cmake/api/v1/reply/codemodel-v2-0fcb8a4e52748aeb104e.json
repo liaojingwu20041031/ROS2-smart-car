@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-89ee5a7620e64585f2bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ylhb_base",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "base_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_controller-ac606da18bb7e2ae0e92.json",
+					"name" : "base_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_driver-7b6386b3fba56931bcf4.json",
+					"name" : "imu_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d26bd76c4253d1bcb9e5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ylhb_base_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ylhb_base_uninstall-887b7217154df7710d6a.json",
+					"name" : "ylhb_base_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/ylhb_base",
+		"source" : "/home/ljw/ROS2-smart-car/rdk_x5_ros2/src/ylhb_base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

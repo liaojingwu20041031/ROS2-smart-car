@@ -1,0 +1,4 @@
+Invoking command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros -- -j8 -l8
+Invoked command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros -- -j8 -l8
+Invoking command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros
+Invoked command in '/home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ROS2-smart-car/rdk_x5_ros2/build/rplidar_ros
